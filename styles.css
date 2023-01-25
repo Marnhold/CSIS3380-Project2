@@ -1,0 +1,78 @@
+body{
+  background-color: #565fae;
+  font-family: Helvetica, sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.cf:after { 
+  content: "."; 
+  visibility: hidden; 
+  display: block; 
+  height: 0; 
+  clear: both;
+}
+
+.page{
+  margin: 50px auto;
+  width: 60%;
+  background-color: #fff;
+  padding: 50px;
+}
+
+  .contactItem{
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+
+    .contactDetails{
+      width: 50%;
+      float: left;
+    }
+
+      .contactDetails .avatar{
+        width: 40px;
+        height: auto;
+        border-radius: 20px;
+        float: left;
+        margin-right: 14px
+      }
+
+      .contactDetails h3{
+        margin: 4px 0 2px 0;
+        font-weight: bold;
+        color: #4ba6c3;
+      }
+
+    .joinedDetails{
+      width: 50%;
+      float: left;
+      text-align: right;
+    }
+
+      .joinedDetails .date{
+        margin-top: 15px;
+        display: block;
+      }
+
+      .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+      }
+      
+      /* Style the active/current link */
+      .pagination a.active {
+        background-color: dodgerblue;
+        color: white;
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .pagination a:hover:not(.active) {background-color: #ddd;}
+
+      /*pagination from https://www.w3schools.com/howto/howto_css_pagination.asp */
